@@ -324,10 +324,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:20.5.7":
-  version: 20.5.7
-  resolution: "@types/node@npm:20.5.7"
-  checksum: fc284c8e16ddc04569730d58e87eae349eb1c3dd9020cb79a1862d9d9add6f04e7367a236f3252db8db2572f90278e250f4cd43d27d264972b54394eaba1ed76
+"@types/node@npm:20.5.9":
+  version: 20.5.9
+  resolution: "@types/node@npm:20.5.9"
+  checksum: 717490e94131722144878b4ca1a963ede1673bb8f2ef78c2f5b50b918df6dc9b35e7f8283e5c2a7a9f137730f7c08dc6228e53d4494a94c9ee16881e6ce6caed
   languageName: node
   linkType: hard
 
@@ -2601,12 +2601,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lucide-react@npm:^0.271.0":
-  version: 0.271.0
-  resolution: "lucide-react@npm:0.271.0"
+"lucide-react@npm:^0.274.0":
+  version: 0.274.0
+  resolution: "lucide-react@npm:0.274.0"
   peerDependencies:
     react: ^16.5.1 || ^17.0.0 || ^18.0.0
-  checksum: 56eede2a266ed8fb8118c5c297fdebaafc39c4d4c44360c8582dff07cdf6e6dffc0ea0d837ba6aececea2c56dfde2620ef8034730c080eb98c29f5e48d185ada
+  checksum: 4daac93c8c5696078f63666a960a2f32c1fabf753f5f18c3542e2f84c0b43ccd51ba408cfa07725f353cb80d4928e0319e9c13a1d5da374a6d2b4014e7c7decd
   languageName: node
   linkType: hard
 
@@ -2908,7 +2908,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "nextjs-template@workspace:."
   dependencies:
-    "@types/node": 20.5.7
+    "@types/node": 20.5.9
     "@types/react": 18.2.21
     "@types/react-dom": 18.2.7
     autoprefixer: 10.4.15
@@ -2918,10 +2918,10 @@ __metadata:
     eslint-config-next: 13.4.19
     eslint-config-prettier: ^9.0.0
     eslint-plugin-tailwindcss: ^3.13.0
-    lucide-react: ^0.271.0
+    lucide-react: ^0.274.0
     next: 13.4.19
     next-themes: ^0.2.1
-    postcss: 8.4.28
+    postcss: 8.4.29
     prettier: ^3.0.3
     react: 18.2.0
     react-dom: 18.2.0
@@ -3348,14 +3348,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:8.4.28":
-  version: 8.4.28
-  resolution: "postcss@npm:8.4.28"
+"postcss@npm:8.4.29":
+  version: 8.4.29
+  resolution: "postcss@npm:8.4.29"
   dependencies:
     nanoid: ^3.3.6
     picocolors: ^1.0.0
     source-map-js: ^1.0.2
-  checksum: f605c24a36f7e400bad379735fbfc893ccb8d293ad6d419bb824db77cdcb69f43d614ef35f9f7091f32ca588d130ec60dbcf53b366e6bf88a8a64bbeb3c05f6d
+  checksum: dd6daa25e781db9ae5b651d9b7bfde0ec6e60e86a37da69a18eb4773d5ddd51e28fc4ff054fbdc04636a31462e6bf09a1e50986f69ac52b10d46b7457cd36d12
   languageName: node
   linkType: hard
 

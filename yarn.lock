@@ -324,10 +324,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:20.8.3":
-  version: 20.8.3
-  resolution: "@types/node@npm:20.8.3"
-  checksum: bfb88b341faeb19f8fd37306a3bf433721b876c6491d10fcb0b13fd26601fa36ee45113dd82b1e1c23e3c957dff5b99f81a16493cefa03abe797e41a2487a4f7
+"@types/node@npm:20.8.6":
+  version: 20.8.6
+  resolution: "@types/node@npm:20.8.6"
+  dependencies:
+    undici-types: ~5.25.1
+  checksum: ccfb7ac482c5a96edeb239893c5c099f5257fcc2ed9ae62fefdfbc782b79e16dbc2af9a85b379665237bf759904b44ca2be68e75d239e0297882aad42f61905c
   languageName: node
   linkType: hard
 
@@ -338,12 +340,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-dom@npm:18.2.11":
-  version: 18.2.11
-  resolution: "@types/react-dom@npm:18.2.11"
+"@types/react-dom@npm:18.2.13":
+  version: 18.2.13
+  resolution: "@types/react-dom@npm:18.2.13"
   dependencies:
     "@types/react": "*"
-  checksum: 70dbdd2f8836a797ab8a3771c773f51023aab187d4d88ed3733bb3f2cbc2146057788a0095a03637101aeab9a48fce0ea369f96a35fc07e785ef53b8ab870885
+  checksum: 22ba066b141dca5a5a9227fae0afc7c94b470fff8e8a38ade72649da57a8ea04d0cb2ba3e22005e7d8e772d49bddd28855b1dd98e6defd033bba6afb6edff883
   languageName: node
   linkType: hard
 
@@ -358,14 +360,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:18.2.25":
-  version: 18.2.25
-  resolution: "@types/react@npm:18.2.25"
+"@types/react@npm:18.2.28":
+  version: 18.2.28
+  resolution: "@types/react@npm:18.2.28"
   dependencies:
     "@types/prop-types": "*"
     "@types/scheduler": "*"
     csstype: ^3.0.2
-  checksum: 177515cd44135d56191ec6c5c10edd490c96c175d37624d9c37bc2007c3abcf6cc2d2137d2a073d692cdc5129d5d5785bd60a6ddd315f695da5d8b989fa2afc5
+  checksum: 81381bedeba83278f4c9febb0b83e0bd3f42a25897a50b9cb36ef53651d34b3d50f87ebf11211ea57ea575131f85d31e93e496ce46478a00b0f9bf7b26b5917a
   languageName: node
   linkType: hard
 
@@ -2847,12 +2849,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lucide-react@npm:^0.284.0":
-  version: 0.284.0
-  resolution: "lucide-react@npm:0.284.0"
+"lucide-react@npm:^0.287.0":
+  version: 0.287.0
+  resolution: "lucide-react@npm:0.287.0"
   peerDependencies:
     react: ^16.5.1 || ^17.0.0 || ^18.0.0
-  checksum: ad4cb554da392556f78ea79203fe16ff3261904723ffcf47ab00aca9e6613d24b457afcb1dc26c2845bcf673d9ffd261f7b0c13232b3ae60641fc652c85b854d
+  checksum: 9c49c74d0e70ae920b65a683e5e3a76ec0709bd44d5ebcc50f6bdefb57c7868e139ce58df74b31b49b2a7022b8dc7ff7fe5a8944ace335ae39dc0284786c375d
   languageName: node
   linkType: hard
 
@@ -3153,9 +3155,9 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "nextjs-template@workspace:."
   dependencies:
-    "@types/node": 20.8.3
-    "@types/react": 18.2.25
-    "@types/react-dom": 18.2.11
+    "@types/node": 20.8.6
+    "@types/react": 18.2.28
+    "@types/react-dom": 18.2.13
     autoprefixer: 10.4.16
     class-variance-authority: ^0.7.0
     clsx: ^2.0.0
@@ -3163,7 +3165,7 @@ __metadata:
     eslint-config-next: 13.5.4
     eslint-config-prettier: ^9.0.0
     eslint-plugin-tailwindcss: ^3.13.0
-    lucide-react: ^0.284.0
+    lucide-react: ^0.287.0
     next: 13.5.4
     next-themes: ^0.2.1
     postcss: 8.4.31
@@ -4543,6 +4545,13 @@ __metadata:
     has-symbols: ^1.0.3
     which-boxed-primitive: ^1.0.2
   checksum: b7a1cf5862b5e4b5deb091672ffa579aa274f648410009c81cca63fed3b62b610c4f3b773f912ce545bb4e31edc3138975b5bc777fc6e4817dca51affb6380e9
+  languageName: node
+  linkType: hard
+
+"undici-types@npm:~5.25.1":
+  version: 5.25.3
+  resolution: "undici-types@npm:5.25.3"
+  checksum: ec9d2cc36520cbd9fbe3b3b6c682a87fe5be214699e1f57d1e3d9a2cb5be422e62735f06e0067dc325fd3dd7404c697e4d479f9147dc8a804e049e29f357f2ff
   languageName: node
   linkType: hard
 

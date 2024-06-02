@@ -688,12 +688,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:20.12.12":
-  version: 20.12.12
-  resolution: "@types/node@npm:20.12.12"
+"@types/node@npm:20.13.0":
+  version: 20.13.0
+  resolution: "@types/node@npm:20.13.0"
   dependencies:
     undici-types: "npm:~5.26.4"
-  checksum: 10c0/f374b763c744e8f16e4f38cf6e2c0eef31781ec9228c9e43a6f267880fea420fab0a238b59f10a7cb3444e49547c5e3785787e371fc242307310995b21988812
+  checksum: 10c0/4fb1ab41d622bbf3434da138bd0f23052e5df3bc59852ea1228cdfe185fd9d66ea71171a68a3106452c883808be7eaa7bc4cd87f534708754d49849e817aa566
   languageName: node
   linkType: hard
 
@@ -724,13 +724,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:18.3.2":
-  version: 18.3.2
-  resolution: "@types/react@npm:18.3.2"
+"@types/react@npm:18.3.3":
+  version: 18.3.3
+  resolution: "@types/react@npm:18.3.3"
   dependencies:
     "@types/prop-types": "npm:*"
     csstype: "npm:^3.0.2"
-  checksum: 10c0/9fb2f1fcf7e889ee4ea7c3c5978df595c66e770e5fd3a245dbdd2589b9b911524c11dab25a6275d8af4e336e4cb5fa850d447884b84c335a187a338c89df99ba
+  checksum: 10c0/fe455f805c5da13b89964c3d68060cebd43e73ec15001a68b34634604a78140e6fc202f3f61679b9d809dde6d7a7c2cb3ed51e0fd1462557911db09879b55114
   languageName: node
   linkType: hard
 
@@ -2031,15 +2031,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-tailwindcss@npm:^3.15.2":
-  version: 3.15.2
-  resolution: "eslint-plugin-tailwindcss@npm:3.15.2"
+"eslint-plugin-tailwindcss@npm:^3.17.0":
+  version: 3.17.0
+  resolution: "eslint-plugin-tailwindcss@npm:3.17.0"
   dependencies:
     fast-glob: "npm:^3.2.5"
     postcss: "npm:^8.4.4"
   peerDependencies:
     tailwindcss: ^3.4.0
-  checksum: 10c0/c38420361f793616522cf912a6e969998065b574f858da1a2d455094db9a8289cce5499ca9177c76675df7cf22735c98a0390d9bba115ed0044542af3562f636
+  checksum: 10c0/c8a7fd6ed30fd03796530d4a1ced66b948c95958fcefab9e4f09387d2b178a4f1c4fca4ab2d9b0325a6bdc01f25ebc1ca48070562207274a7520c79df838295d
   languageName: node
   linkType: hard
 
@@ -3345,12 +3345,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lucide-react@npm:^0.378.0":
-  version: 0.378.0
-  resolution: "lucide-react@npm:0.378.0"
+"lucide-react@npm:^0.383.0":
+  version: 0.383.0
+  resolution: "lucide-react@npm:0.383.0"
   peerDependencies:
     react: ^16.5.1 || ^17.0.0 || ^18.0.0
-  checksum: 10c0/b420601bdda257ec9f62c40f6e048d4a3b2845d1db8599dce80497fa4ffe438a227dceedeb4a9b7afca17dfc7a07f23ef0a06e72276c5c6c6f51c32b581ece67
+  checksum: 10c0/241814c4a12b7f1e946a18d60fff4d35ab25ece77dcd6eb99dd7cf3a31d1578b2263aa5339a67c0a84646fdcd16cee47f9f53f0c5aff8cfc6601f2e001052cde
   languageName: node
   linkType: hard
 
@@ -3667,8 +3667,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "nextjs-template@workspace:."
   dependencies:
-    "@types/node": "npm:20.12.12"
-    "@types/react": "npm:18.3.2"
+    "@types/node": "npm:20.13.0"
+    "@types/react": "npm:18.3.3"
     "@types/react-dom": "npm:18.3.0"
     autoprefixer: "npm:10.4.19"
     class-variance-authority: "npm:^0.7.0"
@@ -3676,12 +3676,12 @@ __metadata:
     eslint: "npm:8.57.0"
     eslint-config-next: "npm:14.2.3"
     eslint-config-prettier: "npm:^9.1.0"
-    eslint-plugin-tailwindcss: "npm:^3.15.2"
-    lucide-react: "npm:^0.378.0"
+    eslint-plugin-tailwindcss: "npm:^3.17.0"
+    lucide-react: "npm:^0.383.0"
     next: "npm:14.2.3"
     next-themes: "npm:^0.3.0"
     postcss: "npm:8.4.38"
-    prettier: "npm:^3.2.5"
+    prettier: "npm:^3.3.0"
     react: "npm:18.3.1"
     react-dom: "npm:18.3.1"
     shadcn-ui: "npm:^0.8.0"
@@ -4187,12 +4187,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:^3.2.5":
-  version: 3.2.5
-  resolution: "prettier@npm:3.2.5"
+"prettier@npm:^3.3.0":
+  version: 3.3.0
+  resolution: "prettier@npm:3.3.0"
   bin:
     prettier: bin/prettier.cjs
-  checksum: 10c0/ea327f37a7d46f2324a34ad35292af2ad4c4c3c3355da07313339d7e554320f66f65f91e856add8530157a733c6c4a897dc41b577056be5c24c40f739f5ee8c6
+  checksum: 10c0/d033c356320aa2e468bf29c931b094ac730d2f4defd5eb2989d8589313dec901d2fc866e3788f3d161e420b142ea4ec3dda535dbe0169ef4d0026397a68ba9cf
   languageName: node
   linkType: hard
 

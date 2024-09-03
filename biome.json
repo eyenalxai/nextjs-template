@@ -16,7 +16,7 @@
 	},
 	"javascript": {
 		"formatter": {
-			"trailingComma": "none",
+			"trailingCommas": "none",
 			"semicolons": "asNeeded"
 		}
 	}

@@ -23,7 +23,7 @@
 	},
 	"devDependencies": {
 		"@biomejs/biome": "1.9.4",
-		"@types/node": "22.9.0",
+		"@types/node": "22.9.3",
 		"@types/react": "18.3.12",
 		"@types/react-dom": "18.3.1",
 		"autoprefixer": "10.4.20",
@@ -32,7 +32,7 @@
 		"eslint-plugin-tailwindcss": "^3.17.5",
 		"postcss": "8.4.49",
 		"tailwindcss": "3.4.15",
-		"typescript": "5.6.3"
+		"typescript": "5.7.2"
 	},
 	"packageManager": "yarn@4.5.2"
 }

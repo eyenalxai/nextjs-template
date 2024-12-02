@@ -1,4 +1,4 @@
-# 🚀 Next.js 14 Template
+# 🚀 Next.js 15 Template
 
 Available on GitHub: [https://github.com/eyenalxai/nextjs-template](https://github.com/eyenalxai/nextjs-template)
 

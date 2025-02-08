@@ -451,6 +451,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@eslint/core@npm:^0.11.0":
+  version: 0.11.0
+  resolution: "@eslint/core@npm:0.11.0"
+  dependencies:
+    "@types/json-schema": "npm:^7.0.15"
+  checksum: 10c0/1e0671d035c908175f445864a7864cf6c6a8b67a5dfba8c47b2ac91e2d3ed36e8c1f2fd81d98a73264f8677055559699d4adb0f97d86588e616fc0dc9a4b86c9
+  languageName: node
+  linkType: hard
+
 "@eslint/eslintrc@npm:^3.2.0":
   version: 3.2.0
   resolution: "@eslint/eslintrc@npm:3.2.0"
@@ -468,10 +477,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eslint/js@npm:9.19.0, @eslint/js@npm:^9.19.0":
-  version: 9.19.0
-  resolution: "@eslint/js@npm:9.19.0"
-  checksum: 10c0/45dc544c8803984f80a438b47a8e578fae4f6e15bc8478a703827aaf05e21380b42a43560374ce4dad0d5cb6349e17430fc9ce1686fed2efe5d1ff117939ff90
+"@eslint/js@npm:9.20.0, @eslint/js@npm:^9.20.0":
+  version: 9.20.0
+  resolution: "@eslint/js@npm:9.20.0"
+  checksum: 10c0/10e7b5b9e628b5192e8fc6b0ecd27cf48322947e83e999ff60f9f9e44ac8d499138bcb9383cbfa6e51e780d53b4e76ccc2d1753b108b7173b8404fd484d37328
   languageName: node
   linkType: hard
 
@@ -979,12 +988,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:22.10.10":
-  version: 22.10.10
-  resolution: "@types/node@npm:22.10.10"
+"@types/node@npm:22.13.1":
+  version: 22.13.1
+  resolution: "@types/node@npm:22.13.1"
   dependencies:
     undici-types: "npm:~6.20.0"
-  checksum: 10c0/3425772d4513cd5dbdd87c00acda088113c03a97445f84f6a89744c60a66990b56c9d3a7213d09d57b6b944ae8ff45f985565e0c1846726112588e33a22dd12b
+  checksum: 10c0/d4e56d41d8bd53de93da2651c0a0234e330bd7b1b6d071b1a94bd3b5ee2d9f387519e739c52a15c1faa4fb9d97e825b848421af4b2e50e6518011e7adb4a34b7
   languageName: node
   linkType: hard
 
@@ -2395,16 +2404,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:^9.19.0":
-  version: 9.19.0
-  resolution: "eslint@npm:9.19.0"
+"eslint@npm:^9.20.0":
+  version: 9.20.0
+  resolution: "eslint@npm:9.20.0"
   dependencies:
     "@eslint-community/eslint-utils": "npm:^4.2.0"
     "@eslint-community/regexpp": "npm:^4.12.1"
     "@eslint/config-array": "npm:^0.19.0"
-    "@eslint/core": "npm:^0.10.0"
+    "@eslint/core": "npm:^0.11.0"
     "@eslint/eslintrc": "npm:^3.2.0"
-    "@eslint/js": "npm:9.19.0"
+    "@eslint/js": "npm:9.20.0"
     "@eslint/plugin-kit": "npm:^0.2.5"
     "@humanfs/node": "npm:^0.16.6"
     "@humanwhocodes/module-importer": "npm:^1.0.1"
@@ -2440,7 +2449,7 @@ __metadata:
       optional: true
   bin:
     eslint: bin/eslint.js
-  checksum: 10c0/3b0dfaeff6a831de086884a3e2432f18468fe37c69f35e1a0a9a2833d9994a65b6dd2a524aaee28f361c849035ad9d15e3841029b67d261d0abd62c7de6d51f5
+  checksum: 10c0/5eb2d9b5ed85a0b022871d19719417d110afb07a4abfedd856ad03d9a821def5f6bc31d7c407ca27f56e5e66e39375300fd2b877017245eb99c44060d6c983bd
   languageName: node
   linkType: hard
 
@@ -3597,36 +3606,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lodash._reinterpolate@npm:^3.0.0":
-  version: 3.0.0
-  resolution: "lodash._reinterpolate@npm:3.0.0"
-  checksum: 10c0/cdf592374b5e9eb6d6290a9a07c7d90f6e632cca4949da2a26ae9897ab13f138f3294fd5e81de3e5d997717f6e26c06747a9ad3413c043fd36c0d87504d97da6
-  languageName: node
-  linkType: hard
-
 "lodash.merge@npm:^4.6.2":
   version: 4.6.2
   resolution: "lodash.merge@npm:4.6.2"
   checksum: 10c0/402fa16a1edd7538de5b5903a90228aa48eb5533986ba7fa26606a49db2572bf414ff73a2c9f5d5fd36b31c46a5d5c7e1527749c07cbcf965ccff5fbdf32c506
-  languageName: node
-  linkType: hard
-
-"lodash.template@npm:^4.5.0":
-  version: 4.5.0
-  resolution: "lodash.template@npm:4.5.0"
-  dependencies:
-    lodash._reinterpolate: "npm:^3.0.0"
-    lodash.templatesettings: "npm:^4.0.0"
-  checksum: 10c0/62a02b397f72542fa9a989d9fc1a94fc1cb94ced8009fa5c37956746c0cf460279e844126c2abfbf7e235fe27e8b7ee8e6efbf6eac247a06aa05b05457fda817
-  languageName: node
-  linkType: hard
-
-"lodash.templatesettings@npm:^4.0.0":
-  version: 4.2.0
-  resolution: "lodash.templatesettings@npm:4.2.0"
-  dependencies:
-    lodash._reinterpolate: "npm:^3.0.0"
-  checksum: 10c0/2609fea36ed061114dfed701666540efc978b069b2106cd819b415759ed281419893d40f85825240197f1a38a98e846f2452e2d31c6d5ccee1e006c9de820622
   languageName: node
   linkType: hard
 
@@ -3667,12 +3650,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lucide-react@npm:^0.474.0":
-  version: 0.474.0
-  resolution: "lucide-react@npm:0.474.0"
+"lucide-react@npm:^0.475.0":
+  version: 0.475.0
+  resolution: "lucide-react@npm:0.475.0"
   peerDependencies:
     react: ^16.5.1 || ^17.0.0 || ^18.0.0 || ^19.0.0
-  checksum: 10c0/60c88c251b2ed4d1074d24a7041122dc280c48cf68a1a25b23e35a296f49955e0edc22744f278929bc7e48dcd4248bed27d6a8227d5a42fc49fceb134194b310
+  checksum: 10c0/9cb17bd4e70da4db104874b6b2e9d9c7e2be9438e9d1c0b2565df0c4d0bdd1add41b7dff3cb60840699ecbd29870c453878b42b69a7c46480def0c9370a852a9
   languageName: node
   linkType: hard
 
@@ -4004,25 +3987,25 @@ __metadata:
   dependencies:
     "@biomejs/biome": "npm:1.9.4"
     "@eslint/eslintrc": "npm:^3.2.0"
-    "@eslint/js": "npm:^9.19.0"
+    "@eslint/js": "npm:^9.20.0"
     "@radix-ui/react-icons": "npm:^1.3.2"
-    "@types/node": "npm:22.10.10"
+    "@types/node": "npm:22.13.1"
     "@types/react": "npm:^19.0.8"
     "@types/react-dom": "npm:^19.0.3"
     autoprefixer: "npm:10.4.20"
     class-variance-authority: "npm:^0.7.1"
     clsx: "npm:^2.1.1"
-    eslint: "npm:^9.19.0"
+    eslint: "npm:^9.20.0"
     eslint-config-next: "npm:15.1.6"
     eslint-plugin-tailwindcss: "npm:^3.18.0"
     geist: "npm:^1.3.1"
-    lucide-react: "npm:^0.474.0"
+    lucide-react: "npm:^0.475.0"
     next: "npm:^15.1.6"
     next-themes: "npm:^0.4.4"
     postcss: "npm:8.5.1"
     react: "npm:19.0.0"
     react-dom: "npm:19.0.0"
-    shadcn: "npm:^2.1.8"
+    shadcn: "npm:^2.3.0"
     tailwind-merge: "npm:^2.6.0"
     tailwindcss: "npm:3.4.17"
     tailwindcss-animate: "npm:^1.0.7"
@@ -4853,9 +4836,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"shadcn@npm:^2.1.8":
-  version: 2.1.8
-  resolution: "shadcn@npm:2.1.8"
+"shadcn@npm:^2.3.0":
+  version: 2.3.0
+  resolution: "shadcn@npm:2.3.0"
   dependencies:
     "@antfu/ni": "npm:^0.21.4"
     "@babel/core": "npm:^7.22.1"
@@ -4870,7 +4853,6 @@ __metadata:
     fs-extra: "npm:^11.1.0"
     https-proxy-agent: "npm:^6.2.0"
     kleur: "npm:^4.1.5"
-    lodash.template: "npm:^4.5.0"
     node-fetch: "npm:^3.3.0"
     ora: "npm:^6.1.2"
     postcss: "npm:^8.4.24"
@@ -4882,7 +4864,7 @@ __metadata:
     zod: "npm:^3.20.2"
   bin:
     shadcn: dist/index.js
-  checksum: 10c0/10a5012aa895e165a3bc3cade40c918d1a012faff2fd6bb415ee84898a6653e2fd800a949a1d9738a0b65f96291d2c6864cbdf2d9d3bb38157e8a6fffb5464f2
+  checksum: 10c0/8d4ed1ef365394977ccaa38cff9f813236e323bffe012cc5dfe12b862c477121be676a4d0e2c12c46d53455fd9e2638fdefb2dc59b870e407ce0dd09052aa820
   languageName: node
   linkType: hard
 

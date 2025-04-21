@@ -22,6 +22,22 @@ Built with [Drizzle ORM](https://orm.drizzle.team) for type-safe database operat
 
 Secure your application with a robust authentication system that supports multiple providers and session management.
 
+### Better Auth Models Generation
+
+This project uses [Better Auth](https://www.better-auth.com/) - a comprehensive authentication library that supports multiple frameworks and providers. One of its key features is the ability to generate type-safe Drizzle ORM models for authentication. To generate the authentication schema:
+
+```bash
+npx @better-auth/cli@latest generate \
+  --config src/lib/auth/auth.ts \
+  --output src/server/database/auth-schema.ts
+```
+
+This command:
+- Generates type-safe authentication models
+- Outputs the schema to `src/server/database/auth-schema.ts`
+
+Run this command whenever you make changes to your authentication configuration.
+
 ## Type-Safe API with tRPC
 
 Leverage [tRPC](https://trpc.io) for end-to-end type-safe APIs without the need for code generation or runtime type checking.

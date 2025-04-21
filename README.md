@@ -13,7 +13,19 @@ Ensure user-friendly appearance adjustments with seamless toggling 🌓 between 
 ## Pre-Configured Biome and ESLint
 
 Benefit from clean and error-free coding courtesy of pre-configured setups for Biome and ESLint.
-  
+
+## Database with Drizzle ORM
+
+Built with [Drizzle ORM](https://orm.drizzle.team) for type-safe database operations and schema management. Experience the power of SQL with the safety of TypeScript.
+
+## Enhanced Authentication
+
+Secure your application with a robust authentication system that supports multiple providers and session management.
+
+## Type-Safe API with tRPC
+
+Leverage [tRPC](https://trpc.io) for end-to-end type-safe APIs without the need for code generation or runtime type checking.
+
 ## License
 
 This project operates under The Unlicense license.

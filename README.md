@@ -28,4 +28,4 @@ Leverage [tRPC](https://trpc.io) for end-to-end type-safe APIs without the need 
 
 ## License
 
-This project operates under The Unlicense license.
+This project is licensed under the MIT License.

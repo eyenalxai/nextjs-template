@@ -6,7 +6,7 @@ import { betterAuth } from "better-auth"
 import { drizzleAdapter } from "better-auth/adapters/drizzle"
 
 export const auth = betterAuth({
-	appName: "Replenish",
+	appName: "my-app",
 	session: {
 		freshAge: 7 * 24 * 60 * 60 // 7 days
 	},
@@ -21,5 +21,5 @@ export const auth = betterAuth({
 			clientSecret: env.GITHUB_CLIENT_SECRET
 		}
 	},
-	trustedOrigins: [env.NEXT_PUBLIC_BETTER_AUTH_URL]
+	trustedOrigins: [env.NEXT_PUBLIC_APP_URL]
 })

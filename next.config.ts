@@ -1,5 +1,5 @@
-import { env } from "@/lib/env.mjs"
 import type { NextConfig } from "next"
+import { env } from "@/lib/env.js"
 
 const extractDomain = (url: string) => {
 	const urlObj = new URL(url)

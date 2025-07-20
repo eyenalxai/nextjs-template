@@ -1,6 +1,6 @@
-import { users } from "@/server/database/auth-schema"
 import { relations, sql } from "drizzle-orm"
 import { integer, pgTable, text, timestamp, uuid } from "drizzle-orm/pg-core"
+import { users } from "@/server/database/auth-schema"
 
 export const stories = pgTable("stories", {
 	uuid: uuid("uuid").default(sql`gen_random_uuid()`).primaryKey(),

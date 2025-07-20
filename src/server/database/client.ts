@@ -1,8 +1,8 @@
-import { env } from "@/lib/env.mjs"
-import * as authSchema from "@/server/database/auth-schema"
-import * as schema from "@/server/database/schema"
 import { drizzle } from "drizzle-orm/node-postgres"
 import { Pool } from "pg"
+import { env } from "@/lib/env.js"
+import * as authSchema from "@/server/database/auth-schema"
+import * as schema from "@/server/database/schema"
 
 export type Transaction =
 	| Parameters<Parameters<typeof db.transaction>[0]>[0]

@@ -689,9 +689,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@better-auth/cli@npm:^1.3.1":
-  version: 1.3.1
-  resolution: "@better-auth/cli@npm:1.3.1"
+"@better-auth/cli@npm:^1.3.2":
+  version: 1.3.2
+  resolution: "@better-auth/cli@npm:1.3.2"
   dependencies:
     "@babel/core": "npm:^7.0.0"
     "@babel/preset-react": "npm:^7.26.3"
@@ -701,7 +701,7 @@ __metadata:
     "@prisma/client": "npm:^5.22.0"
     "@types/better-sqlite3": "npm:^7.6.12"
     "@types/prompts": "npm:^2.4.9"
-    better-auth: "npm:1.3.1"
+    better-auth: "npm:1.3.2"
     better-sqlite3: "npm:^11.6.0"
     c12: "npm:^2.0.1"
     chalk: "npm:^5.3.0"
@@ -719,7 +719,7 @@ __metadata:
     zod: "npm:^3.23.8"
   bin:
     cli: dist/index.mjs
-  checksum: 10c0/c4fc826324bf286c8b4089006768452cdd3d54b1a68d5c2a66236b114c1f6abb97c692850854c4720c15a02001933420628b6557c3b1ab99bd0a0e68eda6304f
+  checksum: 10c0/54b935607344f2a390ad1a9fa84bb9b359f133a6a994365c6835a99b8a95bdc6a2dd6a809c26cf3d10f2595dc21d472c9332c8d2f7b7c557a787c36291a0a960
   languageName: node
   linkType: hard
 
@@ -2711,12 +2711,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:24.0.15":
-  version: 24.0.15
-  resolution: "@types/node@npm:24.0.15"
+"@types/node@npm:24.1.0":
+  version: 24.1.0
+  resolution: "@types/node@npm:24.1.0"
   dependencies:
     undici-types: "npm:~7.8.0"
-  checksum: 10c0/39ead0c0ff25dde29357630b5eaa7dd73cf3af796dbd0f01ed439a8af01cbddfa6b68aa9d67fb3243962836170a4463ff856c47fa822250c585987f707eb42b3
+  checksum: 10c0/6c4686bc144f6ce7bffd4cadc3e1196e2217c1da4c639c637213719c8a3ee58b6c596b994befcbffeacd9d9eb0c3bff6529d2bc27da5d1cb9d58b1da0056f9f4
   languageName: node
   linkType: hard
 
@@ -3201,9 +3201,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"better-auth@npm:1.3.1, better-auth@npm:^1.3.1":
-  version: 1.3.1
-  resolution: "better-auth@npm:1.3.1"
+"better-auth@npm:1.3.2, better-auth@npm:^1.3.2":
+  version: 1.3.2
+  resolution: "better-auth@npm:1.3.2"
   dependencies:
     "@better-auth/utils": "npm:0.2.5"
     "@better-fetch/fetch": "npm:^1.1.18"
@@ -3225,7 +3225,7 @@ __metadata:
       optional: true
     react-dom:
       optional: true
-  checksum: 10c0/5e003ce665f5ce5a685e6f302c2abf20189f291825dbd2ca7ceea476139bd3dee69e2ba598f8d97acb52474ded9f2a0e0127fc921ce4d8a9980f60a09a463cee
+  checksum: 10c0/8182906b777f4fefe4d569b3b5095ed21249145559740892f6b8e18f8995e63fa5e73259ba52cf5df7b2643d297fe8afc12341365c10b5542ac5b74fd6a22733
   languageName: node
   linkType: hard
 
@@ -7101,7 +7101,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "nextjs-template@workspace:."
   dependencies:
-    "@better-auth/cli": "npm:^1.3.1"
+    "@better-auth/cli": "npm:^1.3.2"
     "@biomejs/biome": "npm:2.1.2"
     "@eslint/eslintrc": "npm:^3.3.1"
     "@eslint/js": "npm:^9.31.0"
@@ -7113,12 +7113,12 @@ __metadata:
     "@trpc/next": "npm:^11.4.3"
     "@trpc/react-query": "npm:^11.4.3"
     "@trpc/server": "npm:^11.4.3"
-    "@types/node": "npm:24.0.15"
+    "@types/node": "npm:24.1.0"
     "@types/pg": "npm:^8.15.4"
     "@types/react": "npm:^19.1.8"
     "@types/react-dom": "npm:^19.1.6"
     autoprefixer: "npm:10.4.21"
-    better-auth: "npm:^1.3.1"
+    better-auth: "npm:^1.3.2"
     class-variance-authority: "npm:^0.7.1"
     clsx: "npm:^2.1.1"
     drizzle-kit: "npm:^0.31.4"

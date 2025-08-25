@@ -4,10 +4,16 @@ export const users = pgTable("users", {
 	id: text("id").primaryKey(),
 	name: text("name").notNull(),
 	email: text("email").notNull().unique(),
-	emailVerified: boolean("email_verified").notNull(),
+	emailVerified: boolean("email_verified")
+		.$defaultFn(() => false)
+		.notNull(),
 	image: text("image"),
-	createdAt: timestamp("created_at").notNull(),
-	updatedAt: timestamp("updated_at").notNull()
+	createdAt: timestamp("created_at")
+		.$defaultFn(() => new Date())
+		.notNull(),
+	updatedAt: timestamp("updated_at")
+		.$defaultFn(() => new Date())
+		.notNull()
 })
 
 export const sessions = pgTable("sessions", {
@@ -46,6 +52,6 @@ export const verifications = pgTable("verifications", {
 	identifier: text("identifier").notNull(),
 	value: text("value").notNull(),
 	expiresAt: timestamp("expires_at").notNull(),
-	createdAt: timestamp("created_at"),
-	updatedAt: timestamp("updated_at")
+	createdAt: timestamp("created_at").$defaultFn(() => new Date()),
+	updatedAt: timestamp("updated_at").$defaultFn(() => new Date())
 })

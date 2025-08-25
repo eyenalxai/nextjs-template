@@ -27,9 +27,7 @@ Secure your application with a robust authentication system that supports multip
 This project uses [Better Auth](https://www.better-auth.com/) - a comprehensive authentication library that supports multiple frameworks and providers. One of its key features is the ability to generate type-safe Drizzle ORM models for authentication. To generate the authentication schema:
 
 ```bash
-npx @better-auth/cli@latest generate \
-  --config src/lib/auth/auth.ts \
-  --output src/server/database/auth-schema.ts
+yarn auth:generate
 ```
 
 This command:

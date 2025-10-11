@@ -1,12 +1,21 @@
 {
 	"$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
-	"assist": { "actions": { "source": { "organizeImports": "on" } } },
+	"assist": {
+		"actions": {
+			"source": {
+				"organizeImports": "on"
+			}
+		}
+	},
 	"linter": {
 		"enabled": true,
 		"rules": {
 			"recommended": true,
 			"suspicious": {
 				"noUnknownAtRules": "off"
+			},
+			"correctness": {
+				"noNestedComponentDefinitions": "off"
 			},
 			"style": {
 				"noParameterAssign": "error",
@@ -37,5 +46,8 @@
 		"enabled": true,
 		"clientKind": "git",
 		"useIgnoreFile": true
+	},
+	"files": {
+		"includes": ["**", "!drizzle"]
 	}
 }

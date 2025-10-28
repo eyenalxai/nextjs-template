@@ -1,8 +1,8 @@
 import { err, ok, type Result } from "neverthrow"
-import type { ZodType } from "zod/v4"
+import type * as z from "zod"
 
 export const parseZodSchema = <T>(
-	schema: ZodType<T>,
+	schema: z.ZodType<T>,
 	data: unknown
 ): Result<T, string> => {
 	const result = schema.safeParse(data)

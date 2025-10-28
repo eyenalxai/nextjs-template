@@ -1,3 +1,4 @@
+// oxlint-disable-next-line import/no-unassigned-import
 import "./globals.css"
 import { GeistMono } from "geist/font/mono"
 import { GeistSans } from "geist/font/sans"

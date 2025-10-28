@@ -6,7 +6,7 @@ import {
 } from "@/server/api/trpc"
 
 export const stuffRouter = createTRPCRouter({
-	getPublicStuff: publicProcedure.query(async () => {
+	getPublicStuff: publicProcedure.query(() => {
 		return {
 			message: "Hello, world!"
 		}
@@ -17,7 +17,7 @@ export const stuffRouter = createTRPCRouter({
 				uuid: z.string()
 			})
 		)
-		.query(async ({ ctx, input }) => {
+		.query(({ ctx, input }) => {
 			return {
 				userId: ctx.session.user.id,
 				uuid: input.uuid

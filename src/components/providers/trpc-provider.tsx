@@ -9,7 +9,7 @@ import { httpBatchStreamLink, loggerLink } from "@trpc/client"
 import { createTRPCReact } from "@trpc/react-query"
 import type { inferRouterInputs, inferRouterOutputs } from "@trpc/server"
 import { useState } from "react"
-import SuperJSON from "superjson"
+import { deserialize, serialize } from "superjson"
 
 import type { AppRouter } from "@/server/api/root"
 
@@ -22,12 +22,12 @@ export const createQueryClient = () =>
 				staleTime: 30 * 1000
 			},
 			dehydrate: {
-				serializeData: SuperJSON.serialize,
+				serializeData: serialize,
 				shouldDehydrateQuery: (query) =>
 					defaultShouldDehydrateQuery(query) || query.state.status === "pending"
 			},
 			hydrate: {
-				deserializeData: SuperJSON.deserialize
+				deserializeData: deserialize
 			}
 		}
 	})
@@ -61,7 +61,7 @@ export function TRPCReactProvider(props: { children: React.ReactNode }) {
 						(op.direction === "down" && op.result instanceof Error)
 				}),
 				httpBatchStreamLink({
-					transformer: SuperJSON,
+					transformer: { serialize, deserialize },
 					url: `${getBaseUrl()}/api/trpc`,
 					headers: () => {
 						const headers = new Headers()

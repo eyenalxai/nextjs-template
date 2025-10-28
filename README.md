@@ -1,4 +1,4 @@
-# 🚀 Next.js 15 Template
+# 🚀 Next.js 16 Template
 
 Available on GitHub: [https://github.com/eyenalxai/nextjs-template](https://github.com/eyenalxai/nextjs-template)
 
@@ -31,6 +31,7 @@ yarn auth:generate
 ```
 
 This command:
+
 - Generates type-safe authentication models
 - Outputs the schema to `src/server/database/auth-schema.ts`
 

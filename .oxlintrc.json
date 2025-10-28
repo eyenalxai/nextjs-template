@@ -22,14 +22,14 @@
 		"es2022": true
 	},
 	"ignorePatterns": [
-		"**/node_modules/**",
-		"**/dist/**",
-		"**/.next/**",
-		"**/drizzle/**",
+		"node_modules/**",
+		".next/**",
+		"drizzle/**",
 		"**/*.d.ts",
-		"**/*.config.{js,ts,mjs,cjs}",
-		"**/tsconfig.tsbuildinfo",
-		"**/src/components/ui/**"
+		"*.config.{js,ts,mjs,cjs}",
+		"tsconfig.tsbuildinfo",
+		"src/components/ui/**",
+		"src/server/database/auth-schema.ts"
 	],
 	"rules": {
 		"typescript/no-explicit-any": "error",

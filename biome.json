@@ -1,5 +1,10 @@
 {
 	"$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
+	"css": {
+		"parser": {
+			"tailwindDirectives": true
+		}
+	},
 	"assist": {
 		"actions": {
 			"source": {
@@ -15,7 +20,8 @@
 				"noUnknownAtRules": "off"
 			},
 			"correctness": {
-				"noNestedComponentDefinitions": "off"
+				"noNestedComponentDefinitions": "off",
+				"noChildrenProp": "off"
 			},
 			"style": {
 				"noParameterAssign": "error",

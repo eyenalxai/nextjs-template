@@ -16,6 +16,7 @@
 		"db:migrate-local": "dotenvx run -f .env.local -- drizzle-kit migrate"
 	},
 	"dependencies": {
+		"@base-ui-components/react": "1.0.0-beta.4",
 		"@hookform/resolvers": "^5.2.2",
 		"@t3-oss/env-nextjs": "^0.13.8",
 		"@tanstack/react-query": "^5.90.7",

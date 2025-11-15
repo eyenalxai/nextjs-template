@@ -2,9 +2,9 @@
 
 Available on GitHub: [https://github.com/eyenalxai/nextjs-template](https://github.com/eyenalxai/nextjs-template)
 
-## App Router & shadcn/UI
+## App Router & coss UI
 
-This template employs the App Router and shadcn/ui, leveraging the power of React's latest features combined with re-usable components built with Radix UI and Tailwind CSS. Visit [shadcn UI](https://ui.shadcn.com) for more details.
+This template employs the App Router and coss UI, leveraging the power of React's latest features combined with re-usable components built with Base UI and Tailwind CSS.
 
 ## Dynamic Theming
 
@@ -27,7 +27,7 @@ Secure your application with a robust authentication system that supports multip
 This project uses [Better Auth](https://www.better-auth.com/) - a comprehensive authentication library that supports multiple frameworks and providers. One of its key features is the ability to generate type-safe Drizzle ORM models for authentication. To generate the authentication schema:
 
 ```bash
-yarn auth:generate
+pnpm auth:generate
 ```
 
 This command:

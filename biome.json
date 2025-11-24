@@ -57,6 +57,6 @@
 		"useIgnoreFile": true
 	},
 	"files": {
-		"includes": ["**", "!!drizzle", "!!src/components/ui"]
+		"includes": ["**", "!drizzle"]
 	}
 }

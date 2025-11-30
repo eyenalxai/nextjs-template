@@ -57,6 +57,11 @@
 		"useIgnoreFile": true
 	},
 	"files": {
-		"includes": ["**", "!drizzle"]
+		"includes": [
+			"**",
+			"!drizzle",
+			"!src/components/ui",
+			"!src/hooks/use-mobile.ts"
+		]
 	}
 }

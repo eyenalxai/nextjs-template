@@ -29,7 +29,8 @@
 		"*.config.{js,ts,mjs,cjs}",
 		"tsconfig.tsbuildinfo",
 		"src/components/ui/**",
-		"src/server/database/auth-schema.ts"
+		"src/server/database/auth-schema.ts",
+		"src/hooks/use-mobile.ts"
 	],
 	"rules": {
 		"typescript/no-explicit-any": "error",

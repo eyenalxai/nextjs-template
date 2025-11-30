@@ -36,10 +36,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
 		<html
 			lang="en"
 			suppressHydrationWarning
-			className={cn(
-				GeistSans.variable,
-				GeistMono.variable
-			)}
+			className={cn(GeistSans.variable, GeistMono.variable)}
 		>
 			<body className={cn("font-sans", "antialiased")}>
 				<Providers attribute="class" defaultTheme="system" enableSystem>

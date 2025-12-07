@@ -1,4 +1,4 @@
-minimumReleaseAge: 7200 # 5 days
+minimumReleaseAge: 4320 # 3 days
 
 onlyBuiltDependencies:
   - "@prisma/client"

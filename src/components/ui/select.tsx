@@ -1,3 +1,4 @@
+/** biome-ignore-all lint/a11y/noSvgWithoutTitle: Not my code */
 "use client"
 
 import { Select as SelectPrimitive } from "@base-ui-components/react/select"
@@ -73,7 +74,7 @@ function SelectPopup({
 					{...props}
 				>
 					<SelectPrimitive.ScrollUpArrow
-						className="top-0 z-50 flex h-6 w-full cursor-default items-center justify-center before:pointer-events-none before:absolute before:inset-x-px before:top-px before:h-[200%] before:rounded-t-[calc(var(--radius-lg)-1px)] before:bg-gradient-to-b before:from-50% before:from-popover"
+						className="top-0 z-50 flex h-6 w-full cursor-default items-center justify-center before:pointer-events-none before:absolute before:inset-x-px before:top-px before:h-[200%] before:rounded-t-[calc(var(--radius-lg)-1px)] before:bg-linear-to-b before:from-50% before:from-popover"
 						data-slot="select-scroll-up-arrow"
 					>
 						<ChevronUpIcon className="relative size-4" />
@@ -90,7 +91,7 @@ function SelectPopup({
 						</SelectPrimitive.List>
 					</span>
 					<SelectPrimitive.ScrollDownArrow
-						className="bottom-0 z-50 flex h-6 w-full cursor-default items-center justify-center before:pointer-events-none before:absolute before:inset-x-px before:bottom-px before:h-[200%] before:rounded-b-[calc(var(--radius-lg)-1px)] before:bg-gradient-to-t before:from-50% before:from-popover"
+						className="bottom-0 z-50 flex h-6 w-full cursor-default items-center justify-center before:pointer-events-none before:absolute before:inset-x-px before:bottom-px before:h-[200%] before:rounded-b-[calc(var(--radius-lg)-1px)] before:bg-linear-to-t before:from-50% before:from-popover"
 						data-slot="select-scroll-down-arrow"
 					>
 						<ChevronDownIcon className="relative size-4" />

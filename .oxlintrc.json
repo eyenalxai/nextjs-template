@@ -79,6 +79,7 @@
 		"eslint/no-negated-condition": "error",
 		"eslint/no-lonely-if": "error",
 		"eslint/max-lines": "error",
+		"eslint/no-inline-comments": "off",
 		"eslint/eqeqeq": "error",
 		"import/max-dependencies": "off",
 		"react/jsx-key": "error",
